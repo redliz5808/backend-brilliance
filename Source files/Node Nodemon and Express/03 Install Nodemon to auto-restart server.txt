@@ -1,0 +1,15 @@
+ 
+alex@alexs-MBP-3 HelloRest % npm install nodemon 
+added 118 packages, and audited 169 packages in 4s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+alex@alexs-MBP-3 HelloRest % npx nodemon server.js
+[nodemon] 2.0.12
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+Server has started on Port 3000

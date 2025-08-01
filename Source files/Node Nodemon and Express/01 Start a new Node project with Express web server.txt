@@ -1,0 +1,50 @@
+alex@alexs-MBP-3 Documents % mkdir HelloRest 
+alex@alexs-MBP-3 Documents % cd HelloRest
+alex@alexs-MBP-3 HelloRest % pwd
+/Users/alex/Documents/HelloRest
+alex@alexs-MBP-3 HelloRest % npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (hellorest) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/alex/Documents/HelloRest/package.json:
+
+{
+  "name": "hellorest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+alex@alexs-MBP-3 HelloRest % npm install express 
+
+added 50 packages, and audited 51 packages in 2s
+
+found 0 vulnerabilities
+alex@alexs-MBP-3 HelloRest % touch server.js
+alex@alexs-MBP-3 HelloRest % ls               
+node_modules		package.json
+package-lock.json	server.js
+alex@alexs-MBP-3 HelloRest % nano server.js
+alex@alexs-MBP-3 HelloRest % 

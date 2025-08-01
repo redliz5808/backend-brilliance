@@ -1,0 +1,26 @@
+{
+  "name": "backend-brilliance",
+  "version": "1.0.0",
+  "description": "Course follow-along project. Simple REST project.",
+  "homepage": "https://github.com/redliz5808/backend-brilliance#readme",
+  "bugs": {
+    "url": "https://github.com/redliz5808/backend-brilliance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redliz5808/backend-brilliance.git"
+  },
+  "license": "ISC",
+  "author": "Elizabeth W. Franklin",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "latest": "^0.2.0",
+    "nodemon": "^3.1.10"
+  }
+}
