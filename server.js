@@ -21,4 +21,7 @@ app.use(bodyParser.json());
 app.listen(port, () => {
     console.log(`Server has started on port ${port}`);
 });
+
+// NOTES
 // Nodemon is used to monitor the server and auto-restart it.
+// MongoDB is installed to manage the DB.
